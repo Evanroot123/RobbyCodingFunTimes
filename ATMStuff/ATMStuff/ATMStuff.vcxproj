@@ -115,7 +115,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bank.cpp" />
+    <ClCompile Include="CheckingAccount.cpp" />
+    <ClCompile Include="HelperMcHelperton.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="SavingsAccount.cpp" />
+    <ClCompile Include="User.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bank.h" />
+    <ClInclude Include="CheckingAccount.h" />
+    <ClInclude Include="HelperMcHelperton.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="SavingsAccount.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
